@@ -67,7 +67,8 @@ public class DatagramTimeServer
      * This main method that creates the server and gives the instruction to start.
      * @param args Customer indication.
      */
-    public static void main(String[] args) {
+    public static void main(String[] args) 
+    {
         DatagramTimeServer ds = new DatagramTimeServer();
         ds.startServer();
     }   
