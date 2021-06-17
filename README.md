@@ -17,12 +17,12 @@ Este es un programa donde se genera el servidor que recibe y envia la hora y fec
 ### Paquete ServerWeb
 ![Diagrama Clases](Images/DiagramServer.PNG)<br>
 #### Descripción de HttpServer.java
-Este programa genera un servidor que ejecuta los archivos que se encuentran en el proyecto, tales como __html,Css,Js e imagenes___.
+Este programa genera un servidor que ejecuta los archivos que se encuentran en el proyecto, tales como ___html, Css, Js e imagenes___.
 #### Descripción de ThreadPoolExcecutor.java
 Este programa genera los hilos que necesita el servidora para ejecutar multiples ventanas o funciones.
 #### Ejecución
 > 1. Ejecución de ___ThreadPoolExcecutor.java___
-> 2. Abrir su navegador e ir ___http://127.0.0.1:35000/___ + ___archivo____
+> 2. Abrir su navegador e ir ___http://127.0.0.1:35000/___ + ___archivo___
 > 3. La salida será el archivo ejecutado en el navegador.
 > > ___HttpServer.java___ no es necesario ser ejecutado.
 
@@ -30,12 +30,13 @@ Este programa genera los hilos que necesita el servidora para ejecutar multiples
 ### Paquete Datagram
 ![Test App](Images/Datagram1.PNG)<br>
 - Se comprueba El funcionamiento de la hora mientras funciona el Servidor.
+
 ![Test App](Images/Datagram2.PNG)<br>
 - Se comprueba El funcionamiento de la hora mientras no funciona el Servidor.
 ### Paquete ServerWeb
 ![Test App](Images/Server1.PNG)<br>
 - Las pruebas de HttpServer se verifican entrando en http://127.0.0.1:35000/TestHttpServer1.html, http://127.0.0.1:35000/TestHttpServer2.html ó http://127.0.0.1:35000/TestHttpServer3.html .
-> > Las tres pruebas pueden ser ejecutadas al mismo tiempo para comprobar los hilos.
+> Las tres pruebas pueden ser ejecutadas al mismo tiempo para comprobar los hilos.
 
 ## JavaDoc:
 [JavaDoc - Datagram - HTTP Server](JavaDoc/index.html)
